@@ -3,7 +3,8 @@
 
 
 function getname(object) {
-  return object['name'];
+  const { name } = object;
+  return name ;
 }
 
 module.exports = getname;
