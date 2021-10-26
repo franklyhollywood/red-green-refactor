@@ -2,9 +2,11 @@
 
 
 
-function getname(object) {
-  const { name } = object;
+function getname({ name }) {
+  //const { name } = object;
   return name ;
 }
 
 module.exports = getname;
+
+
