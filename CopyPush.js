@@ -1,6 +1,7 @@
+function copyPush(array, item) {
+  array.push(item);
 
-function copyPush() {
-    
+  return array;
 }
 
 module.exports = copyPush;
