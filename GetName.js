@@ -3,7 +3,7 @@
 
 
 function getname(dog) {
-  return 'spot';
+  return dog.name;
 }
 
 module.exports = getname;
