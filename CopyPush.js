@@ -1,7 +1,7 @@
 function copyPush(array, item) {
-  array.push(item);
+  const newarr = [...array, item];
 
-  return array;
+  return newarr;
 }
 
 module.exports = copyPush;

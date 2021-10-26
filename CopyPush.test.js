@@ -5,6 +5,6 @@ describe('CopyPush', () => {
     const arr = [1, 2, 3];
     const item = 4;
 
-    expect(copyPush(arr, item)).toEqual[(1, 2, 3, 4)];
+    expect(copyPush(arr, item)).toEqual([1, 2, 3, 4]);
   });
 });
